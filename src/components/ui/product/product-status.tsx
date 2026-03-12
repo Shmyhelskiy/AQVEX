@@ -21,7 +21,7 @@ export const ProductStatus: FC<ProductStatusProps> = ({
           strokeWidth={3}
         />
         <span className="font-klein text-[14px] font-medium text-text-primary leading-none">
-          {isAvailable ? "В наявності" : "Немає в наявності"}
+          {isAvailable ? "В наличии" : "Отсутцтвует"}
         </span>
       </div>
 

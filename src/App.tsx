@@ -1,4 +1,3 @@
-// import { useEffect, useMemo, useState } from "react";
 import { SearchInput } from "./components/ui/search-field";
 import { CatalogControls } from "./components/features/catalog-controls";
 import { ProductGrid } from "./components/features/product-grid";
@@ -27,7 +26,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main className="mb-[67px]">
       <div className="flex flex-col gap-5 mb-5">
         <section className="flex flex-wrap items-center justify-end gap-4">
           <SearchInput value={searchQuery} onChange={handleSearch} />

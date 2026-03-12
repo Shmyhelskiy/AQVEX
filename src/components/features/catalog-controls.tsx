@@ -12,9 +12,9 @@ export const CatalogControls = ({
   onSortChange,
 }: CatalogControlsProps) => {
   const sortOptions = [
-    { value: "popular", label: "По популярності" },
-    { value: "price-desc", label: "Ціна: від більшої" },
-    { value: "price-asc", label: "Ціна: від меншої" },
+    { value: "popular", label: "По популярности" },
+    { value: "price-desc", label: "Цена: от большой" },
+    { value: "price-asc", label: "Цена: от меньшой" },
   ];
 
   const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -24,7 +24,7 @@ export const CatalogControls = ({
   return (
     <div className="flex items-center justify-between w-full">
       <p className="tracking-tight-tight text-text-primary opacity-50 font-medium font-klein">
-        {totalItems} товарів
+        {totalItems} товаров
       </p>
 
       <div className="relative flex items-center gap-2.5 cursor-pointer group min-w-50">

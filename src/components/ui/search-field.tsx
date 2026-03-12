@@ -9,7 +9,7 @@ interface SearchInputProps {
 export const SearchInput = ({
   value,
   onChange,
-  placeholder = "Пошук",
+  placeholder = "Поиск",
 }: SearchInputProps) => {
   return (
     <div className="relative w-full max-w-[454px] max-h-11 text-text-primary">
